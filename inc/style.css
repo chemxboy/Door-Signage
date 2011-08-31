@@ -1,0 +1,73 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body {
+  font-family: helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+a:link    {color:#f0612a;}
+a:visited {color:#f0612a;}
+a:hover   {color:#f0612a;}
+a:active  {color:#f0612a;}
+
+h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", 	Sans-Serif;
+	font-size: 14px;
+	color: #585656;
+	text-transform:uppercase;
+	margin-left: 190px;
+}
+
+#header{
+  position:relative;
+  margin-left:25px;
+  margin-bottom: 0px;
+}
+
+
+#status-table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	background: #fff;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 95%;
+	border-collapse: collapse;
+	position: absolute; 
+
+}
+#status-table th
+{
+	font-size: 56px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #f0612a;
+	padding: 50px 8px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid #585656;
+}
+#status-table td
+{
+	font-size: 52px;
+	color: #585656;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+	line-height:120% 
+}
+#status-table tbody tr:hover td
+{
+	color: #f0612a;
+}
+#status-table tfoot td
+{
+	font-size: 18px;
+	color: #585656;
+	padding-top: 20px;
+	text-align: center;
+	line-height:100% 
+}
